@@ -1,0 +1,12 @@
+﻿.vs/
+bin/
+obj/
+*.user
+*.suo
+*.log
+echo "bin/" >> .gitignore
+echo "obj/" >> .gitignore
+echo "appsettings.json" >> .gitignore
+echo "appsettings.Development.json" >> .gitignore
+echo "*.csproj.user" >> .gitignore
+echo "*.http" >> .gitignore
