@@ -4,7 +4,7 @@
 
 ### ASP.NET Core 8 · Entity Framework Core · SQL Server · JWT Auth
 
-**A production-grade REST API powering an offline insurance payment portal for HDFC ERGO General Insurance.**  
+**A production-grade REST API powering an offline insurance payment portal for HFFC ARGO General Insurance.**  
 Enables agents to generate secure, trackable payment links for customers — with full KYC verification, role-based access, and real-time payment lifecycle tracking.
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
@@ -13,7 +13,7 @@ Enables agents to generate secure, trackable payment links for customers — wit
 [![Entity Framework](https://img.shields.io/badge/EF_Core-8.0-512BD4?style=flat-square)](https://docs.microsoft.com/en-us/ef/core/)
 [![ASP.NET Identity](https://img.shields.io/badge/ASP.NET_Identity-✓-512BD4?style=flat-square)](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)
 
-[Features](#-features) · [Architecture](#-architecture) · [API Reference](#-api-reference) · [Setup](#-local-setup) · [Frontend Repo](https://github.com/RohanM0205/ergo-paylink-hub)
+[Features](#-features) · [Architecture](#-architecture) · [API Reference](#-api-reference) · [Setup](#-local-setup) · [Frontend Repo](https://github.com/RohanM0205/offlinepaymentlinks-ui)
 
 </div>
 
@@ -21,7 +21,7 @@ Enables agents to generate secure, trackable payment links for customers — wit
 
 ## 📌 Project Context
 
-HDFC ERGO agents traditionally handled insurance payments manually — no tracking, no audit trail, no customer-facing payment flow. This system digitises the entire process:
+HFFC ARGO agents traditionally handled insurance payments manually — no tracking, no audit trail, no customer-facing payment flow. This system digitises the entire process:
 
 1. Agent fills a payment form → system generates a **unique short URL**
 2. Customer opens the link → completes **KYC verification**
@@ -191,7 +191,7 @@ OfflinePaymentLinks.API/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/RohanM0205/OfflinePaymentLinks.API.git
+git clone https://github.com/RohanM0205/offlinepaymentlinks-api.git
 cd OfflinePaymentLinks.API
 
 # 2. Create appsettings.json from the example
@@ -230,7 +230,7 @@ Password: SuperAdmin@123
 
 ## 🤝 Connected Frontend
 
-This API is consumed by **[ergo-paylink-hub](https://github.com/RohanM0205/ergo-paylink-hub)** — a React 19 + TanStack Router SPA.
+This API is consumed by **[offlinepaymentlinks-ui](https://github.com/RohanM0205/offlinepaymentlinks-ui)** — a React 19 + TanStack Router SPA.
 
 ---
 
